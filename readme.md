@@ -33,7 +33,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]]
+![Product Name Screen Shot][product-screenshot]
 
 Forkify is a JavaScript web application that interacts with the Forkify API to fetch and display recipe food data. This app uses modern JavaScript tools, such as Parcel to configure the project for maximum performance, Core-js to polyfill the code, Regenerator-runtime for asynchronous methods and Fracty to make fraction conversions.
 The user can search for a specific recipe, and save to a favorites list via local storage. The user can easily increase or decrease
@@ -98,6 +98,7 @@ _For more examples, please refer to the [Documentation](https://forkify-api.hero
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+<br/>
 [![MIT License][license-shield]][license-url]
 
 ## Contact
