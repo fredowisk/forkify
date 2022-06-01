@@ -42,6 +42,13 @@ class PaginationView extends View {
     `;
   }
 
+  _generateTotalPagesNumber(numPages) {
+    return `
+    <div class="pagination__pages">
+      <span>${numPages} PAGES</span>
+    </div>`;
+  }
+
   _generateMarkup() {
     const {
       results: { length: resultsLength },
@@ -58,7 +65,11 @@ class PaginationView extends View {
       return this._generateLeftButton();
 
     if (currentPage < numPages)
-      return [this._generateLeftButton(), this._generateRightButton()];
+      return `
+        ${this._generateLeftButton()}
+        ${this._generateTotalPagesNumber(numPages)}
+        ${this._generateRightButton()}
+      `;
 
     return '';
   }

@@ -4,7 +4,7 @@ const TIMEOUT_SECONDS = 5;
 
 const RESULTS_PER_PAGE = 15;
 
-const API_KEY = '62fd58b5-111b-4f77-bc4f-ab702c93045e';
+const API_KEY = 'YOUR API KEY';
 
 const MODAL_CLOSE_TIMEOUT = 1000;
 

@@ -1,0 +1,109 @@
+<br />
+<p align="center">
+    <img src="./src/img/logo.png" alt="Logo" width="100%" height="100%">
+
+  <h3 align="center">Forkify</h3>
+
+  <p align="center">
+    A recipe search web application made with JavaScript.
+    <br />
+    <a href="#about-the-project"><strong>Explore the docs »</strong></a>
+    <br />
+  </p>
+</p>
+
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+
+## About The Project
+
+[![Product Name Screen Shot][product-screenshot]]
+
+Forkify is a JavaScript web application that interacts with the Forkify API to fetch and display recipe food data. This app uses modern JavaScript tools, such as Parcel to configure the project for maximum performance, Core-js to polyfill the code, Regenerator-runtime for asynchronous methods and Fracty to make fraction conversions.
+The user can search for a specific recipe, and save to a favorites list via local storage. The user can easily increase or decrease
+servings as per his need and can view detailed instructions.
+
+### Built With
+
+This app is built with pure vanilla JavaScript along with HTML and SCSS. It uses webpack as module bundler and NPM as package manager.
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [SCSS](https://sass-lang.com/)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/javascript)
+- [Parcel](https://parceljs.org/)
+- [NPM](https://www.npmjs.com/)
+- [Fracty](https://www.npmjs.com/package/fracty)
+- [Core-js](https://www.npmjs.com/package/core-js)
+- [Regenerator-runtime](https://www.npmjs.com/package/regenerator-runtime)
+
+## Getting Started
+
+To get started with project just simply fork this repo or download locally on your System.
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+Start with the latest version of NPM to avoid any errors:
+
+- npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+### Installation
+
+1. Get a free API Key at [Forkify API_KEY](https://forkify-api.herokuapp.com/v2)
+2. Clone the repo
+   ```sh
+   git clone https://github.com/fredowisk/forkify
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Enter your API key in `config.js`
+   ```JS
+   const API_KEY = 'ENTER YOUR API';
+   ```
+
+## Usage
+
+1. The Forkify Recipe App allows users to search for recipes.
+
+2. Users can view the recipe along with the cook time and also
+   increase or decrease the amount of servings they need.
+
+3. Bookmarked recipes are stored in local storage so no database was
+   required for this application.
+
+_For more examples, please refer to the [Documentation](https://forkify-api.herokuapp.com/v2)_
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+[![MIT License][license-shield]][license-url]
+
+## Contact
+
+Portfolio - [Take a look](https://fredowisk.github.io/)
+
+[license-shield]: https://img.shields.io/apm/l/vim-mode?label=LICENSE&style=for-the-badge
+[license-url]: https://github.com/fredowisk/forkify/blob/master/LICENSE.txt
+[product-screenshot]: ./src/img/screenshot.jpg
