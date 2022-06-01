@@ -106,5 +106,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Portfolio - [Take a look](https://fredowisk.github.io/)
 
 [license-shield]: https://img.shields.io/apm/l/vim-mode?label=LICENSE&style=for-the-badge
-[license-url]: https://github.com/fredowisk/forkify/blob/master/LICENSE.txt
+[license-url]: https://github.com/fredowisk/forkify/blob/main/license.txt
 [product-screenshot]: ./src/img/screenshot.jpg
