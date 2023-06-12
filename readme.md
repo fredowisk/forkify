@@ -101,6 +101,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <br/>
 [![MIT License][license-shield]][license-url]
 
-[license-shield]: https://img.shields.io/apm/l/vim-mode?label=LICENSE&style=for-the-badge
-[license-url]: https://github.com/fredowisk/forkify/blob/main/LICENSE.md
+[license-shield]: https://img.shields.io/github/license/fredowisk/forkify?label=license&style=for-the-badge
+[license-url]: https://github.com/fredowisk/forkify/blob/main/LICENSE
 [product-screenshot]: ./src/img/screenshot.jpg
