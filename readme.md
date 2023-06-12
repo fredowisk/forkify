@@ -2,7 +2,7 @@
 <p align="center">
     <img src="./src/img/logo.png" alt="Logo" width="100%" height="100%">
 
-  <h3 align="center">Forkify</h3>
+  <h3 align="center"><a href="https://forkify-sigma.vercel.app/">Forkify</a></h3>
 
   <p align="center">
     A recipe search web application made with JavaScript.
@@ -28,7 +28,6 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
   </ol>
 
 ## About The Project
