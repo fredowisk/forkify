@@ -102,5 +102,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [![MIT License][license-shield]][license-url]
 
 [license-shield]: https://img.shields.io/apm/l/vim-mode?label=LICENSE&style=for-the-badge
-[license-url]: https://github.com/fredowisk/forkify/blob/main/license.txt
+[license-url]: https://github.com/fredowisk/forkify/blob/main/LICENSE.md
 [product-screenshot]: ./src/img/screenshot.jpg
