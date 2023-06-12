@@ -4,7 +4,7 @@ const TIMEOUT_SECONDS = 5;
 
 const RESULTS_PER_PAGE = 15;
 
-const API_KEY = 'YOUR API KEY';
+const API_KEY = process.env.API_KEY;
 
 const MODAL_CLOSE_TIMEOUT = 1000;
 
